@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Fauna+One&family=Julius+Sans+One&family=Montserrat:wght@100;300;500;600;700&family=Nunito:wght@200;300;400&family=PT+Serif&family=Poppins:wght@200;300;400;600;900&family=Raleway&family=Roboto:wght@100;300;400;500&family=Rufina:wght@700&family=Ubuntu:wght@300;400;500;700&display=swap');
-
-
 /* 
 font-family: 'Julius Sans One', sans-serif;
 font-family: 'Montserrat', sans-serif;
@@ -26,7 +24,6 @@ body{
 .container{
     display: flex;
     max-width:410px;
-    /* height:260px; */
     font-family: 'Nunito', sans-serif;
     flex-direction: column;
     background-color: #FFF;
@@ -42,13 +39,11 @@ body{
 
 .qr_heading{
     font-size: 20px;
-    
 }
 
 .qr_para{
     font-size:14px;
     font-family: 'Poppins', sans-serif;
-    
 }
 
 .inputs{
@@ -56,7 +51,6 @@ body{
     font-family: 'Poppins', sans-serif;
     flex-direction: column;
     gap:5px;
-    
 }
 
 #user_text{
