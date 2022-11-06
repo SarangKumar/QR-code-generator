@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Fauna+One&family=Julius+Sans+One&family=Montserrat:wght@100;300;500;600;700&family=Nunito:wght@200;300;400&family=PT+Serif&family=Poppins:wght@200;300;400;600;900&family=Raleway&family=Roboto:wght@100;300;400;500&family=Rufina:wght@700&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+/* 
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Fauna One', serif;
+font-family: 'Rufina', serif;
+font-family: 'Ubuntu', sans-serif; */
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    background-color: #FFEFD6;
+}
+
+.container{
+    display: flex;
+    max-width:410px;
+    /* height:260px; */
+    font-family: 'Nunito', sans-serif;
+    flex-direction: column;
+    background-color: #FFF;
+    padding:25px;
+    border-radius: 10px;
+    gap:20px;
+    transition: height 1s linear;
+}
+
+.container .active{
+    height:200px;
+}
+
+.qr_heading{
+    font-size: 20px;
+    
+}
+
+.qr_para{
+    font-size:14px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.inputs{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
+    gap:5px;
+    
+}
+
+#user_text{
+    padding:10px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.button{
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    padding:10px;
+    font-family: 'Raleway', sans-serif;
+    color:#fff;
+    font-size: 16px;
+    background-color:#0E5E6F;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.qr_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.qr_img{
+    display: block;
+    align-items: center;
+}
+
+.button:active{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.button:hover, #user_text:hover{
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
