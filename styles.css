@@ -18,7 +18,7 @@ body{
     align-items: center;
     justify-content: center;
     height:100vh;
-    background-color: #FFEFD6;
+    background-color: #EEEEEE;
 }
 
 .container{
@@ -69,7 +69,7 @@ body{
     font-family: 'Raleway', sans-serif;
     color:#fff;
     font-size: 16px;
-    background-color:#0E5E6F;
+    background-color:#DC5F00;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
