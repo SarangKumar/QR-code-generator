@@ -30,7 +30,7 @@ body{
     padding:25px;
     border-radius: 10px;
     gap:20px;
-    transition: height 1s linear;
+    transition: all 1s ease;
 }
 
 .container .active{
